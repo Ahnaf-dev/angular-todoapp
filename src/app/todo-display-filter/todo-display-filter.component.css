@@ -1,0 +1,27 @@
+.todo__display-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 0 1rem;
+  background-color: var(--secondary);
+  font-size: 1.6rem;
+}
+
+.todo__display-options button {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+}
+
+.filter-options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo__display-options button:hover {
+  color: #bb31ce;
+}
