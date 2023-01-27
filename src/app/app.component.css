@@ -1,0 +1,15 @@
+.banner {
+  width: 100vw;
+  height: 20vh;
+  background-image: url("./../assets/bg-mobile-dark.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 40rem) {
+  .banner {
+    background-image: url("./../assets/bg-desktop-dark.jpg");
+    height: 30vh;
+  }
+}
